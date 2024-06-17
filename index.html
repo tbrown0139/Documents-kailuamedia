@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kailua Media Legal Documents</title>
+    <title>Kailua Media Legal</title>
     <style>
         body {
             display: flex;
@@ -12,9 +12,15 @@
             height: 100vh;
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #6a82fb, #fc5c7d);
             color: #fff;
             text-align: center;
+            animation: gradient 10s ease infinite;
+            background-size: 400% 400%;
+        }
+        @keyframes gradient {
+            0% { background-color: #6a82fb; background-position: 0% 50%; }
+            50% { background-color: #fc5c7d; background-position: 100% 50%; }
+            100% { background-color: #6a82fb; background-position: 0% 50%; }
         }
         .container {
             max-width: 80%;
@@ -47,9 +53,9 @@
 </head>
 <body>
     <div class="container">
-        <img src="http://assets.kailuamedia.xyz/62CAAB92-6F90-435C-90B6-EA3D43397678.png" alt="Kailua Media Logo" class="logo">
-        <h1>Legal Team</h1></h1>
-        <p>Contact us at legal@kailuamedia.com</p>
+        <img src="path/to/your-logo.png" alt="Kailua Media Logo" class="logo">
+        <h1>Kailua Media Legal</h1>
+        <p>Legal documents and more</p>
     </div>
 </body>
 </html>
